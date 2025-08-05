@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/the-web3/eth-wallet/api/models"
+	"github.com/alan1-666/eth-wallet/api/models"
 )
 
 type Service interface {

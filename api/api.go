@@ -13,11 +13,11 @@ import (
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 
-	"github.com/the-web3/eth-wallet/api/common/httputil"
-	"github.com/the-web3/eth-wallet/api/routes"
-	"github.com/the-web3/eth-wallet/api/service"
-	"github.com/the-web3/eth-wallet/config"
-	"github.com/the-web3/eth-wallet/database"
+	"github.com/alan1-666/eth-wallet/api/common/httputil"
+	"github.com/alan1-666/eth-wallet/api/routes"
+	"github.com/alan1-666/eth-wallet/api/service"
+	"github.com/alan1-666/eth-wallet/config"
+	"github.com/alan1-666/eth-wallet/database"
 )
 
 const ethereumAddressRegex = `^0x[a-fA-F0-9]{40}$`

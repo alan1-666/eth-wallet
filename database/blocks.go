@@ -6,9 +6,9 @@ import (
 
 	"gorm.io/gorm"
 
+	common2 "github.com/alan1-666/eth-wallet/database/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
-	common2 "github.com/the-web3/eth-wallet/database/utils"
 )
 
 type Blocks struct {

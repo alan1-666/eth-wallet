@@ -1,4 +1,4 @@
-module github.com/the-web3/eth-wallet
+module github.com/alan1-666/eth-wallet
 
 go 1.21.0
 

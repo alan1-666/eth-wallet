@@ -2,9 +2,9 @@ package eth_wallet
 
 import (
 	"context"
-	"github.com/the-web3/eth-wallet/config"
-	"github.com/the-web3/eth-wallet/wallet"
-	"github.com/the-web3/eth-wallet/wallet/node"
+	"github.com/alan1-666/eth-wallet/config"
+	"github.com/alan1-666/eth-wallet/wallet"
+	"github.com/alan1-666/eth-wallet/wallet/node"
 	"sync/atomic"
 )
 

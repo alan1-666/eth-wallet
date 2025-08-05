@@ -3,7 +3,7 @@ package routes
 import (
 	"github.com/go-chi/chi/v5"
 
-	"github.com/the-web3/eth-wallet/api/service"
+	"github.com/alan1-666/eth-wallet/api/service"
 )
 
 type Routes struct {

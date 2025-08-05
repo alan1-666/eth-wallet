@@ -10,9 +10,9 @@ import (
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 
-	"github.com/the-web3/eth-wallet/config"
-	_ "github.com/the-web3/eth-wallet/database/utils/serializers"
-	"github.com/the-web3/eth-wallet/wallet/retry"
+	"github.com/alan1-666/eth-wallet/config"
+	_ "github.com/alan1-666/eth-wallet/database/utils/serializers"
+	"github.com/alan1-666/eth-wallet/wallet/retry"
 )
 
 type DB struct {

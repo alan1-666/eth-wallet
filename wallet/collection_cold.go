@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/alan1-666/eth-wallet/common/tasks"
+	"github.com/alan1-666/eth-wallet/wallet/node"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/the-web3/eth-wallet/common/tasks"
-	"github.com/the-web3/eth-wallet/wallet/node"
 )
 
 type CollectionCold struct {

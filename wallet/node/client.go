@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	retry2 "github.com/the-web3/eth-wallet/wallet/retry"
+	retry2 "github.com/alan1-666/eth-wallet/wallet/retry"
 	"math/big"
 	"net"
 	"net/url"
@@ -18,7 +18,7 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rpc"
 
-	"github.com/the-web3/eth-wallet/common/global_const"
+	"github.com/alan1-666/eth-wallet/common/global_const"
 )
 
 const (

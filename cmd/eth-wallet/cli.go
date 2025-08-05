@@ -2,20 +2,21 @@ package main
 
 import (
 	"context"
-	"github.com/the-web3/eth-wallet/tools"
+
+	"github.com/alan1-666/eth-wallet/tools"
 
 	"github.com/urfave/cli/v2"
 
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/params"
 
-	eth_wallet "github.com/the-web3/eth-wallet"
-	"github.com/the-web3/eth-wallet/api"
-	"github.com/the-web3/eth-wallet/common/cliapp"
-	"github.com/the-web3/eth-wallet/common/opio"
-	"github.com/the-web3/eth-wallet/config"
-	"github.com/the-web3/eth-wallet/database"
-	flags2 "github.com/the-web3/eth-wallet/flags"
+	eth_wallet "github.com/alan1-666/eth-wallet"
+	"github.com/alan1-666/eth-wallet/api"
+	"github.com/alan1-666/eth-wallet/common/cliapp"
+	"github.com/alan1-666/eth-wallet/common/opio"
+	"github.com/alan1-666/eth-wallet/config"
+	"github.com/alan1-666/eth-wallet/database"
+	flags2 "github.com/alan1-666/eth-wallet/flags"
 )
 
 func runEthWallet(ctx *cli.Context, shutdown context.CancelCauseFunc) (cliapp.Lifecycle, error) {

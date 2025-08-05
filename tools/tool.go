@@ -7,8 +7,8 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/the-web3/eth-wallet/database"
-	"github.com/the-web3/eth-wallet/wallet/ethereum"
+	"github.com/alan1-666/eth-wallet/database"
+	"github.com/alan1-666/eth-wallet/wallet/ethereum"
 )
 
 func CreateAddressTools(ctx *cli.Context, db *database.DB) error {
@@ -23,10 +23,10 @@ func CreateAddressTools(ctx *cli.Context, db *database.DB) error {
 		var UserUid string
 		if index == 1 {
 			AddressType = 1
-			UserUid = "hot-wallet-for-the-web3"
+			UserUid = "hot-wallet-for-alan1-666"
 		} else if index == 2 {
 			AddressType = 2
-			UserUid = "cold-wallet-for-the-web3"
+			UserUid = "cold-wallet-for-alan1-666"
 		} else {
 			UserUid = "useruid"
 			AddressType = 0

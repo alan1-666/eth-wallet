@@ -7,7 +7,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/the-web3/eth-wallet/flags"
+	"github.com/alan1-666/eth-wallet/flags"
 )
 
 const (
