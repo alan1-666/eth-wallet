@@ -7,20 +7,26 @@ import (
 	"time"
 
 	"github.com/alan1-666/eth-wallet/common/tasks"
+	"github.com/alan1-666/eth-wallet/config"
+	"github.com/alan1-666/eth-wallet/database"
 	"github.com/alan1-666/eth-wallet/wallet/node"
 	"github.com/ethereum/go-ethereum/log"
 )
 
 type CollectionCold struct {
+	db             *database.DB
+	chainConfig    *config.ChainConfig
 	client         node.EthClient
 	resourceCtx    context.Context
 	resourceCancel context.CancelFunc
 	tasks          tasks.Group
 }
 
-func NewCollectionCold(client node.EthClient, shutdown context.CancelCauseFunc) (*CollectionCold, error) {
+func NewCollectionCold(cfg *config.Config, db *database.DB, client node.EthClient, shutdown context.CancelCauseFunc) (*CollectionCold, error) {
 	resCtx, resCancel := context.WithCancel(context.Background())
 	return &CollectionCold{
+		db:             db,
+		chainConfig:    &cfg.Chain,
 		client:         client,
 		resourceCtx:    resCtx,
 		resourceCancel: resCancel,
